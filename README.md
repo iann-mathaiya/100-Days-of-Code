@@ -1,4 +1,4 @@
-# 17-Days-of-Vue
+# 100-Days-of-Code
 
 This template should help get you started developing with Vue 3 in Vite.
 
