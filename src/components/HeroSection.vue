@@ -33,7 +33,7 @@
               </div>
             </div>
             <div>
-              <h1 class="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">100 Days of Code</h1>
+              <h1 class="text-4xl text-gray-900 font-bold tracking-tight sm:text-center sm:text-6xl">100 Days of Code</h1>
               <p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
                 A coding challenge inspired by 100 Days of Design <br> from designers such as
                 <a class="" href="https://twitter.com/ermanmalak" target="_blank">Erman Malak</a>
@@ -41,10 +41,9 @@
                 <a class="" href="https://twitter.com/JoshGuoSpace" target="_blank">Joshua Guo</a>
               </p>
               <div class="mt-8 flex gap-x-4 sm:justify-center">
-                <a href="/about"
+                <a href="/challenges"
                   class="inline-block rounded-lg bg-gray-800 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm hover:bg-gray-900">
-                  Get started{{ ' ' }}
-                  <span class="text-indigo-200" aria-hidden="true">&rarr;</span>
+                  View Challenges{{ ' ' }}
                 </a>
               </div>
             </div>

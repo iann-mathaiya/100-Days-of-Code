@@ -18,7 +18,7 @@
             </div>
             <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:items-center lg:justify-end lg:gap-x-10">
             <a v-for="item in navigation" :key="item.name" :href="item.href" class="font-semibold text-gray-600 hover:text-green-700">{{ item.name }}</a>
-              <!-- <a href="#" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">Log in</a> -->
+              <a href="/challenges" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">View Challenges</a>
             </div>
           </nav>
           <Dialog as="div" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
