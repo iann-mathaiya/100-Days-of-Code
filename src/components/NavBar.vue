@@ -5,7 +5,7 @@
             <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
               <a href="#" class="-m-1.5 p-1.5 flex gap-x-2 items-center">
                   <img class="h-8" src="../assets/logo.svg" alt="" />
-                <span class="font-semibold text-green-800">100  Days of Code</span>
+                <span class="font-semibold text-green-800">100  Days of Design + Code</span>
               </a>
             </div>
             <div class="flex lg:hidden">
@@ -26,7 +26,7 @@
               <div class="flex h-9 items-center justify-between">
                 <div class="flex">
                   <a href="#" class="-m-1.5 p-1.5">
-                    <span class="sr-only">Your Company</span>
+                    <span class="sr-only">100 Days of Design + Code</span>
                     <img class="h-8" src="../assets/logo.svg" alt="" />
                   </a>
                 </div>
@@ -43,7 +43,7 @@
                     <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">{{ item.name }}</a>
                   </div>
                   <div class="py-6">
-                    <a href="#" class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">Log in</a>
+                    <a href="/challenges" class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">View Challenges</a>
                   </div>
                 </div>
               </div>
@@ -59,7 +59,6 @@ import { Dialog, DialogPanel } from '@headlessui/vue'
 import { Menu, X } from 'lucide-vue-next'
 
 const navigation = [
-  { name: 'Challenges', href: '#' },
   { name: 'Blog', href: '#' },
 ]
 

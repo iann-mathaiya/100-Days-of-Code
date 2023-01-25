@@ -38,7 +38,7 @@
                 A coding challenge inspired by 100 Days of Design <br> from designers such as
                 <a class="" href="https://twitter.com/ermanmalak" target="_blank">Erman Malak</a>
                 <span> and </span>
-                <a class="" href="https://twitter.com/JoshGuoSpace" target="_blank">Joshua Guo</a>
+                <a class="" href="https://twitter.com/JoshGuoSpace" target="_blank">Joshua Guo</a>.
               </p>
               <div class="mt-8 flex gap-x-4 sm:justify-center">
                 <a href="/challenges"
