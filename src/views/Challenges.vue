@@ -2,17 +2,19 @@
     <NavBar />
     <main class="m-5 md:m-10">
         <h1 class="font-bold text-gray-900 text-xl lg:text-4xl md:text-3xl sm:text-3xl">100 Challenges for 100 Days</h1>
-        <div class="grid grid-cols-2 mt-5">
-            <div>
-                <div class="relative rounded-md">
-                    <img src="" alt="" srcset="">
+        <div class="grid grid-cols-2 mt-5 gap-4">
+            <div v-for="(challenge, index) in challenges" :key="index" class="relative rounded-md">
+                <div>
+                    <img src="" alt="" srcset="" />
+                    <img v-if="challenge.completed === true" src="" alt="" srcset="" />
+                </div>
+                <div class="flex justify-end">
                     <div class="w-fit h-16 p-3 flex items-center gap-1 justify-center bg-gray-600 rounded-md ">
                         <FileLock2 class="text-gray-100" :size="32" aria-hidden="true" />
-                        <h3 class="text-gray-100 text-3xl">{{ challenges }}</h3>
+                        <h3 class="text-gray-100 text-3xl">{{ challenge.id }}</h3>
                     </div>
                 </div>
             </div>
-
         </div>
     </main>
 </template>
@@ -21,8 +23,8 @@
 import NavBar from '@/components/NavBar.vue';
 import { FileLock2 } from 'lucide-vue-next'
 
-const challenges = {
-    day1: {
+const challenges = [
+    {
         id: 1,
         name: "Day One",
         imageBefore: "",
@@ -31,7 +33,7 @@ const challenges = {
         tag: "square",
     },
 
-    day2: {
+    {
         id: 2,
         name: "Day Two",
         imageBefore: "",
@@ -40,7 +42,7 @@ const challenges = {
         tag: "square"
     },
 
-    day3: {
+    {
         id: 3,
         name: "Day Three",
         imageBefore: "",
@@ -49,7 +51,7 @@ const challenges = {
         tag: "square",
     },
 
-    day4: {
+    {
         id: 4,
         name: "Day Four",
         imageBefore: "",
@@ -58,7 +60,7 @@ const challenges = {
         tag: "square"
     },
 
-    day5: {
+    {
         id: 5,
         name: "Day Five",
         imageBefore: "",
@@ -67,15 +69,15 @@ const challenges = {
         tag: "square",
     },
 
-    day6: {
-        id: 1,
+    {
+        id: 6,
         name: "Day Six",
         imageBefore: "",
         imageAfter: "",
         completed: false,
         tag: "square"
     }
-}
+]
 
 
 </script>
