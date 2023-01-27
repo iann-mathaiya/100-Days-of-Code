@@ -3,8 +3,8 @@
     <main class="m-5 md:m-10">
         <h1 class="font-bold text-gray-900 text-xl lg:text-4xl md:text-3xl sm:text-3xl">100 Challenges for 100 Days</h1>
         <div class="grid grid-cols-2 mt-5 gap-4 md:gap-8 md:px-10 ">
-            <div v-for="(challenge, index) in challenges" :key="index" class="relative h-fit w-full rounded-xl">
-                <img :src="challenge.imageBefore" class="rounded-xl object-cover h-96 w-full" alt="" srcset="" />
+            <div v-for="(challenge, index) in challenges" :key="index" class="relative overflow-hidden h-96 w-full rounded-xl">
+                <img :src="challenge.imageBefore" class="rounded-xl object-cover h-96 w-full transition ease-in-out delay-150 hover:scale-125 duration-500" alt="" srcset="" />
                 <img v-if="challenge.is_completed === true" class="rounded-xl" src="" alt="" srcset="" />
                 <div class="absolute bottom-2 right-2 md:bottom-4 md:right-4">
                     <div class="w-fit h-fit md:h-16 p-2 md:p-3 flex items-center gap-1 justify-center bg-gray-600 rounded-md ">
