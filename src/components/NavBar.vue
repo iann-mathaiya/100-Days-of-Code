@@ -5,6 +5,10 @@
             <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
               <a href="#" class="-m-1.5 p-1.5 flex gap-x-2 items-center">
                   <img class="h-8" src="../assets/logo.svg" alt="" />
+
+                  <!-- Attribution for mission & hard to find icons -->
+                  <!-- <a target="_blank" href="https://icons8.com/icon/25645/mission">Mission</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+                  <a target="_blank" href="https://icons8.com/icon/7Amyt6NLpsUe/hard-to-find">Hard to Find</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
                 <span class="font-semibold text-green-800">100  Days of Design + Code</span>
               </a>
             </div>

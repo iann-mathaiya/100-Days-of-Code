@@ -33,7 +33,7 @@
               </div>
             </div>
             <div>
-              <h1 class="text-4xl text-gray-900 font-bold tracking-tight sm:text-center sm:text-6xl">100 Days of Code</h1>
+              <h1 class="text-4xl text-gray-900 font-bold tracking-tight sm:text-center sm:text-6xl">Mastering Design and Code: A 100-Day Journey</h1>
               <p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
                 A coding challenge inspired by 100 Days of Design <br> from designers such as
                 <a class="" href="https://twitter.com/ermanmalak" target="_blank">Erman Malak</a>
