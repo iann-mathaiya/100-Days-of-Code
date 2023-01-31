@@ -3,13 +3,15 @@
         <div>
           <nav class="flex h-9 items-center justify-between" aria-label="Global">
             <div class="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-              <a href="#" class="-m-1.5 p-1.5 flex gap-x-2 items-center">
-                  <img class="h-8" src="../assets/logo.svg" alt="" />
+              <a href="/" class="-m-1.5 p-1.5 flex gap-x-2 items-center">
+                  <div class="relative bg-white rounded">
+                    <img class="h-8 rounded " src="../assets/icons8-hard-to-find-48.png" alt="" />
+                  </div>
 
                   <!-- Attribution for mission & hard to find icons -->
                   <!-- <a target="_blank" href="https://icons8.com/icon/25645/mission">Mission</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
                   <a target="_blank" href="https://icons8.com/icon/7Amyt6NLpsUe/hard-to-find">Hard to Find</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a> -->
-                <span class="font-semibold text-green-800">100  Days of Design + Code</span>
+                <span class="font-semibold text-gray-100">100  Days of Design + Code</span>
               </a>
             </div>
             <div class="flex lg:hidden">
@@ -21,8 +23,8 @@
             <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end lg:gap-x-10">
             </div>
             <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:items-center lg:justify-end lg:gap-x-10">
-            <a v-for="item in navigation" :key="item.name" :href="item.href" class="font-semibold text-gray-600 hover:text-green-700">{{ item.name }}</a>
-              <a href="/challenges" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-600 shadow-sm ring-1 ring-gray-900/30 hover:text-gray-900 hover:ring-gray-900/70">View Challenges</a>
+            <a v-for="item in navigation" :key="item.name" :href="item.href" class="font-semibold text-gray-200 hover:underline hover:underline-offset-2">{{ item.name }}</a>
+              <a href="/challenges" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-200 shadow-sm ring-1 ring-gray-400/30 hover:bg-gray-900 hover:text-gray-100 hover:ring-gray-100/70">View Challenges</a>
             </div>
           </nav>
           <Dialog as="div" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
@@ -44,7 +46,7 @@
               <div class="mt-6 flow-root">
                 <div class="-my-6 divide-y divide-gray-500/10">
                   <div class="space-y-2 py-6">
-                    <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-400/10">{{ item.name }}</a>
+                    <a v-for="item in navigation" :key="item.name" :href="item.href" class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-gray-200 hover:bg-gray-400/10">{{ item.name }}</a>
                   </div>
                   <div class="py-6">
                     <a href="/challenges" class="-mx-3 block rounded-lg py-2.5 px-3 text-base font-semibold leading-6 text-gray-900 hover:bg-gray-400/10">View Challenges</a>

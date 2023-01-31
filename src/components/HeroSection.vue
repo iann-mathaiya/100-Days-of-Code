@@ -1,6 +1,5 @@
-<!-- This example requires Tailwind CSS v3.0+ -->
 <template>
-  <div class="isolate bg-white">
+  <div class="isolate bg-gray-800">
     <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
       <svg
         class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -33,7 +32,7 @@
               </div>
             </div>
             <div>
-              <h1 class="text-4xl text-gray-900 font-bold tracking-tight sm:text-center sm:text-6xl">Mastering Design and Code: A 100-Day Journey</h1>
+              <HeadingOne class="text-center">Mastering Design and Code: <br> A 100-Day Journey</HeadingOne>
               <p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
                 A coding challenge inspired by 100 Days of Design <br> from designers such as
                 <a class="" href="https://twitter.com/ermanmalak" target="_blank">Erman Malak</a>
@@ -71,6 +70,7 @@
 </template>
 
 <script setup lang="ts">
-import NavBar from './NavBar.vue';
+import NavBar from './NavBar.vue'
+import HeadingOne from './typography/HeadingOne.vue';
 
 </script>
