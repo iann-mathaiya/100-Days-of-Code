@@ -1,5 +1,5 @@
 <template>
-  <div class="isolate bg-gray-800 overflow-hidden h-full">
+  <div class="isolate bg-gray-800 overflow-hidden h-screen">
     <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
       <svg
         class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -24,16 +24,16 @@
           <div>
             <div class="hidden sm:mb-8 sm:flex sm:justify-center">
               <div
-                class="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                <span class="text-gray-600">
-                  Introductory blog post <a href="#" class="font-semibold text-indigo-600"><span
+                class="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-100/20 hover:ring-gray-100/40">
+                <span class="text-gray-400">
+                  Introductory blog post <a href="#" class="font-semibold text-purple-400"><span
                       class="absolute inset-0" aria-hidden="true" />Read more <span aria-hidden="true">&rarr;</span></a>
                 </span>
               </div>
             </div>
             <div>
               <HeadingOne class="text-center">Mastering Design and Code: <br> A 100-Day Journey</HeadingOne>
-              <p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
+              <p class="mt-6 text-lg leading-8 text-gray-400 sm:text-center">
                 A coding challenge inspired by 100 Days of Design <br> from designers such as
                 <a class="" href="https://twitter.com/ermanmalak" target="_blank">Erman Malak</a>
                 <span> and </span>
