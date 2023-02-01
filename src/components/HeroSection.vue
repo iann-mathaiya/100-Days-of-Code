@@ -1,5 +1,5 @@
 <template>
-  <div class="isolate bg-gray-800">
+  <div class="isolate bg-gray-800 overflow-hidden h-full">
     <div class="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
       <svg
         class="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
@@ -20,7 +20,7 @@
 
     <main>
       <div class="relative px-6 lg:px-8">
-        <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
+        <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-32 sm:pb-40">
           <div>
             <div class="hidden sm:mb-8 sm:flex sm:justify-center">
               <div

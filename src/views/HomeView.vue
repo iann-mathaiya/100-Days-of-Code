@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="box-border h-screen w-screen">
     <HeroSection />
   </main>
 </template>
