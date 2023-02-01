@@ -19,3 +19,7 @@ import HomeView from './views/HomeView.vue'
 
   <RouterView />
 </template>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Space+Grotesk&display=swap');
+</style>
