@@ -1,8 +1,10 @@
 <template>
-    <NavBar />
-    <h1>Dynamic route</h1>
+    <AppLayout>
+        dynamic route
+    </AppLayout>
 </template>
 
 <script setup lang="ts">
-import NavBar from '@/components/NavBar.vue';
+import AppLayout from '@/components/AppLayout.vue';
+
 </script>
