@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import ChallengeDetails from '../views/ChallengeDetails.vue'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
@@ -22,11 +23,7 @@ const router = createRouter({
       name: 'Challenges',
       component: () => import('../views/Challenges.vue')
     },
-    {
-      path: '/day-one',
-      name: 'Day 1',
-      component: () => import('../views/DayOne.vue')
-    }
+    { path: '/challenges/:id', component: ChallengeDetails  }
   ]
 })
 
