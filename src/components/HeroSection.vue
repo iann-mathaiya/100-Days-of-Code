@@ -26,7 +26,7 @@
               <div
                 class="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-100/20 hover:ring-gray-100/40">
                 <span class="text-gray-400">
-                  Introductory blog post <a href="#" class="font-semibold text-purple-400"><span
+                  Introductory blog post <a href="#" class="font-semibold text-purple-500"><span
                       class="absolute inset-0" aria-hidden="true" />Read more <span aria-hidden="true">&rarr;</span></a>
                 </span>
               </div>
@@ -34,10 +34,10 @@
             <div>
               <HeadingOne class="text-center">Mastering Design and Code: <br> A 100-Day Journey</HeadingOne>
               <p class="mt-6 text-lg leading-8 text-gray-400 sm:text-center">
-                A coding challenge inspired by 100 Days of Design <br> from designers such as
-                <a class="" href="https://twitter.com/ermanmalak" target="_blank">Erman Malak</a>
+                A design coding challenge inspired by 100 Days of Design <br> from designers such as
+                <a class="text-white font-semibold underline decoration-2 decoration-sky-500" href="https://twitter.com/ermanmalak" target="_blank">Erman Malak</a>
                 <span> and </span>
-                <a class="" href="https://twitter.com/JoshGuoSpace" target="_blank">Joshua Guo</a>.
+                <a class="text-white font-semibold underline decoration-2 decoration-pink-500" href="https://twitter.com/JoshGuoSpace" target="_blank">Joshua Guo</a>.
               </p>
               <div class="mt-8 flex gap-x-4 sm:justify-center">
                 <a href="/challenges"

@@ -24,7 +24,7 @@
             </div>
             <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:items-center lg:justify-end lg:gap-x-10">
             <a v-for="item in navigation" :key="item.name" :href="item.href" class="font-semibold text-gray-200 hover:underline hover:underline-offset-2">{{ item.name }}</a>
-              <a href="/challenges" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-200 shadow-sm ring-1 ring-gray-400/30 hover:bg-gray-900 hover:text-gray-100 hover:ring-gray-100/70">View Challenges</a>
+              <a href="/challenges" class="inline-block rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-200 shadow-sm ring-1 ring-gray-400/30 hover:bg-gray-900 hover:text-gray-100 hover:ring-transparent">View Challenges</a>
             </div>
           </nav>
           <Dialog as="div" @close="mobileMenuOpen = false" :open="mobileMenuOpen">
