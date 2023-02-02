@@ -1,10 +1,11 @@
 <template>
-    <div class="bg-gray-800">
-        <NavBar />
+    <AppLayout>
+
+        
         <main class="m-5 md:m-10">
             <HeadingOne>The Ultimate Creative Sprint: From Ideas to Reality</HeadingOne>
             <div class="grid grid-cols-2 mt-5 gap-4 md:gap-8 md:px-10 ">
-                <div v-for="(challenge, index) in challenges" :key="index"
+                <a v-for="(challenge, index) in challenges" :key="index" :href="'/challenges/' + challenge.id"
                     class="relative overflow-hidden h-96 w-full rounded-xl">
                     <!-- <div class="absolute h-full w-full backdrop-blur-md bg-white/30"></div> -->
                     <img v-if="challenge.is_completed === false" :src="challenge.image"
@@ -20,16 +21,17 @@
                             <h3 class="text-gray-100 text-base md:text-3xl">{{ challenge.id }}</h3>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </main>
-    </div>
+    </AppLayout>
 </template>
 
 <script setup lang="ts">
 import NavBar from '@/components/NavBar.vue'
 import { FileLock2 } from 'lucide-vue-next'
 import HeadingOne from '@/components/typography/HeadingOne.vue';
+import AppLayout from '@/components/AppLayout.vue';
 
 const challenges = [
     {
